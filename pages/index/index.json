@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "Popup",
+  "usingComponents": {
+    "content-card": "../content-card/content-card",
+    "content-title": "../content-title/content-title",
+    "l-sticky": "../l-sticky/l-sticky",
+    "l-sticky-item": "../l-sticky-item/l-sticky-item"
+  }
+}

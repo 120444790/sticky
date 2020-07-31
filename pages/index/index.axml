@@ -1,0 +1,19 @@
+<view class="container">
+<view class="logo" style='width: 200px;height: 200px;background-color:blue'>11</view>
+  <content-title name="Sticky" describe="吸顶容器">
+    <content-card name="基本案例">
+      <l-sticky mode="css" class="aaa" scrollTop={{scrollTop}} ref="savefref">
+        <block a:for="{{addresses}}" a:key="index">
+          <l-sticky-item ref="saveRef" top="50">
+            <view class="index-header" slot="header">{{item.index}}</view>
+            <view slot="body">
+              <block a:for="{{item.items}}" a:key="index">
+                <view class="index-body-item">{{item}}</view>
+              </block>
+            </view>
+          </l-sticky-item>
+        </block>
+      </l-sticky>
+    </content-card>
+  </content-title>
+</view>

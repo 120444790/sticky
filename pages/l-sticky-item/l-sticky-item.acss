@@ -1,0 +1,22 @@
+.l-sticky-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.l-sticky-wrapper{
+  overflow: visible;
+}
+
+.l-sticky-item-header{
+  width: 100%;
+}
+
+.l-sticky-item-header-fixed{
+  position: fixed;
+  top: 0;
+}
+
+
+  .l-sticky-item-header-sticky{
+    position: sticky;
+  }
